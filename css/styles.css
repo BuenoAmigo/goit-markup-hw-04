@@ -472,12 +472,18 @@ body {
   margin-top: 8px;
 }
 
-.card:hover,
-.card:active {
+.works-example-link {
+  display: flex;
+  border: 1px solid #e7e9fc;
+}
+
+.works-example-link:hover,
+.works-example-link:focus {
   border: 1px solid var(--white-text-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
 /*-------------------------CUSTOMERS-------------------------*/
 .customers {
   padding-top: 120px;
@@ -530,7 +536,7 @@ body {
 }
 
 .customers-link:hover,
-.customers-link:active {
+.customers-link:focus {
   color: var(--blue-accent-color);
   border-color: var(--blue-accent-color);
 }
@@ -621,7 +627,7 @@ body {
 }
 
 .footer-soc-link:hover,
-.footer-soc-link:active {
+.footer-soc-link:focus {
   background-color: #31d0aa;
 }
 
